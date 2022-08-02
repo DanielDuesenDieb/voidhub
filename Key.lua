@@ -14,6 +14,7 @@ _G.KeyInput = "string"
 
 function MakeScriptHub()
     local Window1 =
+    OrionLib:MakeWindow({ Name = "Script Hub", HidePremium = false, SaveConfig = true, IntroText = "Script Hub" })
     loadstring(game:HttpGet("https://raw.githubusercontent.com/offsetvoid/Hub/main/games%20supported.lua",true))()
 end
 
