@@ -64,4 +64,13 @@ Tab:AddButton({
     end,
 })
 
+Tab:AddTextbox({
+    Name = "Landon and Izzy 4L!",
+    Default = "",
+    TextDisappear = true,
+    Callback = function(Value)
+        _G.KeyInput = Value
+    end,
+})
+
 OrionLib:Init()
