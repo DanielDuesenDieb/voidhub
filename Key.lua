@@ -13,6 +13,7 @@ _G.Key = "mom"
 _G.KeyInput = "string"
 
 function MakeScriptHub()
+    local Window1 =
     loadstring(game:HttpGet("https://raw.githubusercontent.com/offsetvoid/Hub/main/games%20supported.lua", true))()
 end
 
