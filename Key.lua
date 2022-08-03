@@ -77,7 +77,7 @@ Tab:AddButton({
 
 Tab:AddLabel("void and izzy for life!")
 Tab:AddLabel("NOTICE: NOT ALL SCRIPTS ARE THE SAME GUI!!!")
-SupportedGamesTab:AddLabel("Supported Games: Tapping Legends, Prison Life")
+SupportedGamesTab:AddLabel("Tapping Legends, Prison Life (use if u want, key gui doesnt destroy")
 ChangelogTab:AddLabel("                                 Verison 0.0.1")
 ChangelogTab:AddLabel("+ Supported Games tab")
 OrionLib:Init()
