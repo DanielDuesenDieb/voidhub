@@ -3,4 +3,5 @@ if game.PlaceId == 8750997647 then
 end
 
 if game.PlaceId == 155615604 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/offsetvoid/Hub/main/prison%20life.lua",true))()
 end
