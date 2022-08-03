@@ -64,5 +64,6 @@ Tab:AddButton({
 })
 
 Tab:AddLabel("void and izzy for life!")
-
+Tab:AddLabel("NOTICE: NOT ALL SCRIPTS ARE THE SAME GUI!!!")
+tab:AddLabel("Supported Games: Tapping Legends (Arsenal Soon lol)")
 OrionLib:Init()
