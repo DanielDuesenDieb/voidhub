@@ -41,6 +41,18 @@ local Tab = Window:MakeTab({
     PremiumOnly = false,
 })
 
+local ChangelogTab = Window:MakeTab({
+    Name = "Changelogs",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false,
+})
+
+local SupportedGamesTab = Window:MakeTab({
+    Name = "Supported Games",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false,
+})
+
 Tab:AddTextbox({
     Name = "Enter Key",
     Default = "",
@@ -65,5 +77,6 @@ Tab:AddButton({
 
 Tab:AddLabel("void and izzy for life!")
 Tab:AddLabel("NOTICE: NOT ALL SCRIPTS ARE THE SAME GUI!!!")
-tab:AddLabel("Supported Games: Tapping Legends (Arsenal Soon lol)")
+SupportedGamesTab:AddLabel("Supported Games: Tapping Legends (Arsenal Soon lol)")
+ChangelogTab:AddLabel("+ Supported Games tab")
 OrionLib:Init()
