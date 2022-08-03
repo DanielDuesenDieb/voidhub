@@ -95,7 +95,7 @@ if game.PlaceId == 8750997647 then
         end
     })
     
-    EggsTab:AddToggle({
+    MiscTab:AddToggle({
         Name = "Auto Equip Best Pets",
         Default = false,
         Callback = function(Value)
