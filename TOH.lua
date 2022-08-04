@@ -20,7 +20,7 @@ if game.PlaceId == 1962086868 then
 
     --Functions
     function autoBuy()
-        while _G.autoBuy == true do
+        if _G.autoBuy == true then
             game:GetService("ReplicatedStorage").buyMutator:InvokeServer("invincibility","regular")
         end
     end
