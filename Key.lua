@@ -15,6 +15,7 @@ _G.KeyInput = "string"
 function MakeScriptHub()
     local Window1 =
     loadstring(game:HttpGet("https://raw.githubusercontent.com/offsetvoid/Hub/main/games%20supported.lua", true))()
+    game.GetService("CoreGui").Orion:Destroy()
 end
 
 function CorrectKeyNotification()
@@ -68,11 +69,17 @@ Tab:AddButton({
         if _G.KeyInput == _G.Key then
             MakeScriptHub()
             CorrectKeyNotification()
-            OrionLib:Destroy()
         else
             IncorrectKeyNotification()
         end
     end,
+})
+
+Tab:AddButton({
+    Name = "Discord (will make soon lol)",
+    Callback = function()
+              setclipboard("")
+      end    
 })
 
 Tab:AddLabel("void and izzy for life!")
