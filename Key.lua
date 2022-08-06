@@ -14,7 +14,7 @@ _G.KeyInput = "string"
 
 function MakeScriptHub()
     local Window1 =
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/offsetvoid/Hub/main/games%20supported.lua", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/offsetvoid/voidhub/main/games%20supported.lua",true))()
     game:GetService("CoreGui").Orion:Destroy()
 end
 
