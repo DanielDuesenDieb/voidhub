@@ -1,6 +1,6 @@
 if game.PlaceId == 1962086868 then
     local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-    local Window = OrionLib:MakeWindow({Name = "Hub | Tower Of Hell", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+    local Window = OrionLib:MakeWindow({Name = "voidhub | Tower Of Hell", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
     -- Values
     _G.autoBuy = true

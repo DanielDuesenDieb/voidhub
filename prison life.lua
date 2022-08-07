@@ -1,6 +1,6 @@
 if game.PlaceId == 155615604 then
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-    local Window = Library.CreateLib("Prison Life", "Ocean")
+    local Window = Library.CreateLib("voidhub | Prison Life", "Ocean")
 
     -- MAIN
     local Main = Window:NewTab("Main")
@@ -23,7 +23,7 @@ if game.PlaceId == 155615604 then
             module["MaxAmmo"] = math.huge
             module["CurrentAmmo"] = math.huge
             module["StoredAmmo"] = math.huge
-            module["FireRate"] = 0.0001
+            module["FireRate"] = 0.1
             module["Spread"] = 0
             module["Range"] = math.huge
             module["Bullets"] = 10
