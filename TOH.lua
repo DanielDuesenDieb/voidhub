@@ -3,11 +3,11 @@ if game.PlaceId == 1962086868 then
     local Window = OrionLib:MakeWindow({Name = "voidhub | Tower Of Hell", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
     -- Values
-    _G.autoBuy = true
+    _G.autoTop = true
 
     -- Tabs
     local MainTab = Window:MakeTab({
-        Name = "Autofarm",
+        Name = "Main",
         Icon = "rbxassetid://4483345998",
         PremiumOnly = false
     })
@@ -19,15 +19,14 @@ if game.PlaceId == 1962086868 then
     })
 
     --Functions
-    
+    if _G.autoTop == true then
+        
     -- Buttons
     MainTab:AddButton({
-        Name = "Buy All",
+        Name = "Go To Top",
         Callback = function()
-            autoBuy()
+            autoTop()
         end    
     })
 end
 OrionLib:Init()
-
--- Invicibility -> game:GetService("ReplicatedStorage").buyMutator:InvokeServer("invincibility","regular")
