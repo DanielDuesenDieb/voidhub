@@ -20,7 +20,7 @@ if game.PlaceId == 1962086868 then
 
     --Functions
     if _G.autoTop == true then
-        
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/offsetvoid/voidhub/main/toh%20finish.lua",true))()
     -- Buttons
     MainTab:AddButton({
         Name = "Go To Top",
