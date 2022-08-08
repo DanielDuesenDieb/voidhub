@@ -45,7 +45,9 @@ if game.PlaceId == 8750997647 then
         wait(30)
     end
     end
+
     -- Tabs
+    
     local FarmTab = Window:MakeTab({
         Name = "Autofarm",
         Icon = "rbxassetid://4483345998",

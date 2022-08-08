@@ -4,7 +4,6 @@ if game.PlaceId == 1962086868 then
 
     -- Values
     _G.autoTop = true
-
     -- Tabs
     local MainTab = Window:MakeTab({
         Name = "Main",
@@ -21,6 +20,7 @@ if game.PlaceId == 1962086868 then
     --Functions
     if _G.autoTop == true then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/offsetvoid/voidhub/main/toh%20finish.lua",true))()
+    end
     -- Buttons
     MainTab:AddButton({
         Name = "Go To Top",

@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Orion/main/source"))()
 local Player = game.Players.LocalPlayer
-local Window = OrionLib:MakeWindow({ Name = "voidhub Key System", HidePremium = false, SaveConfig = true, IntroText = false })
+local Window = OrionLib:MakeWindow({ Name = "voidhub Key System", HidePremium = true, SaveConfig = true, IntroText = false })
 
 OrionLib:MakeNotification({
     Name = "Logged in!",
