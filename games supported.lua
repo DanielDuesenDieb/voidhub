@@ -11,3 +11,7 @@ end
 
 if game.PlaceId == 3652625463 then --Lifting Sim (soon)
 end
+
+if game.PlaceId == 10515724474 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/offsetvoid/voidhub/main/tapping%20legends%20x.lua",true))()
+end
