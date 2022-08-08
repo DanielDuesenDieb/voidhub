@@ -3,13 +3,29 @@ if game.PlaceId == 10515724474 then
     local Window = OrionLib:MakeWindow({Name = "voidhub | Tapping Legends X (iso's version)", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
     --Values
-    _G.autoClick
-
+    _G.autoClick = true
     --Tabs
     local MainTab = Window:MakeTab({
         Name = "Main",
         Icon = "rbxassetid://4483345998",
         PremiumOnly = false
+    })
+
+    --Functions
+    function autoClick()
+        while _G.autoClick == true do
+        workspace.Events.AddClick:FireServer()
+        wait(0.1)
+        end
+    end
+    --Toggles
+    MainTab:AddToggle({
+        Name = "Auto Click",
+        Default = false,
+        Callback = function(Value)
+            _G.autoClick = Value
+            autoClick()
+        end    
     })
 end
 OrionLib:Init()

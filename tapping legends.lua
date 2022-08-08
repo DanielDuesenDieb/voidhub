@@ -1,6 +1,6 @@
 if game.PlaceId == 8750997647 then
     local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-    local Window = OrionLib:MakeWindow({Name = "Hub | Tapping Legends X", HidePremium = false, IntroEnabled = false,IntroText = "Hub", SaveConfig = true, ConfigFolder = "OrionTest"})
+    local Window = OrionLib:MakeWindow({Name = "voidhub | Tapping Legends X", HidePremium = false, IntroEnabled = false,IntroText = "Hub", SaveConfig = true, ConfigFolder = "OrionTest"})
     
     -- Values
     _G.autoTap = true
