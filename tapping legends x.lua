@@ -6,7 +6,13 @@ if game.PlaceId == 10515724474 then
     _G.autoClick = true
     --Tabs
     local MainTab = Window:MakeTab({
-        Name = "Main",
+        Name = "Autofarm",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+    })
+
+    local MiscTab = Window:MakeTab({
+        Name = "Misc",
         Icon = "rbxassetid://4483345998",
         PremiumOnly = false
     })
@@ -15,7 +21,7 @@ if game.PlaceId == 10515724474 then
     function autoClick()
         while _G.autoClick == true do
         workspace.Events.AddClick:FireServer()
-        wait(0.1)
+        wait(0.01)
         end
     end
     --Toggles

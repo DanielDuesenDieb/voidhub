@@ -117,7 +117,7 @@ if game.PlaceId == 8750997647 then
     EggsTab:AddDropdown({
         Name = "Select Egg",
         Default = "Basic Egg",
-        Options = {"Basic Egg", "Rare Egg"},
+        Options = {"Basic Egg", "Rare Egg", "Forest Egg", "Desert Egg", "Winter Egg", "Lava Egg", "Aqua Egg", "Sakura Egg", "Mine Egg"},
         Callback = function(Value)
             _G.selectEgg = Value
             print(_G.selectEgg)
