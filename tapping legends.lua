@@ -1,6 +1,13 @@
 if game.PlaceId == 8750997647 then
     local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-    local Window = OrionLib:MakeWindow({Name = "voidhub | Tapping Legends X", HidePremium = false, IntroEnabled = false,IntroText = "Hub", SaveConfig = true, ConfigFolder = "OrionTest"})
+    local Window = OrionLib:MakeWindow({
+        Name = "voidhub | Tapping Legends X",
+        HidePremium = false,
+        IntroEnabled = false,
+        IntroText = "LOADED!",
+        SaveConfig = true,
+        ConfigFolder = "OrionTest",
+    })
     
     -- Values
     _G.autoTap = true
@@ -8,8 +15,7 @@ if game.PlaceId == 8750997647 then
     _G.autoHatch = true
     _G.selectEgg = "Basic Egg"
     _G.autoEquip = true
-    
-    
+
     -- Functions
     
     function autoTap()
@@ -46,6 +52,7 @@ if game.PlaceId == 8750997647 then
     end
     end
 
+
     -- Tabs
     
     local FarmTab = Window:MakeTab({
@@ -65,8 +72,7 @@ if game.PlaceId == 8750997647 then
         Icon = "rbxassetid://4483345998",
         PremiumOnly = false
     })
-    
-    
+
     -- Toggles
     FarmTab:AddToggle({
         Name = "Auto Tap",

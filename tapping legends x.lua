@@ -1,6 +1,11 @@
 if game.PlaceId == 10515724474 then
     local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-    local Window = OrionLib:MakeWindow({Name = "voidhub | Tapping Legends X (iso's version)", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+    local Window = OrionLib:MakeWindow({
+        Name = "voidhub | Tapping Legends X (iso's version)",
+        HidePremium = false,
+        SaveConfig = true,
+        ConfigFolder = "OrionTest",
+    })
 
     --Values
     _G.autoClick = true
@@ -24,6 +29,7 @@ if game.PlaceId == 10515724474 then
         wait(0.01)
         end
     end
+
     --Toggles
     MainTab:AddToggle({
         Name = "Auto Click",
