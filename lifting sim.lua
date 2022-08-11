@@ -54,7 +54,7 @@ if game.PlaceId == 3652625463 then
     })
 
     --Buttons
-    MainTab:AddButton({
+    TeleportTab:AddButton({
         Name = "Tp to Shop",
         Callback = function()
             tpShop()
