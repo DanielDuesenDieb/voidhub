@@ -84,7 +84,7 @@ Tab:AddButton({
 
 Tab:AddLabel("NOTICE: NOT ALL SCRIPTS ARE THE SAME GUI!!!")
 SupportedGamesTab:AddParagraph("Supported Games: ", "Tapping Legends, Prison Life")
-SupportedGamesTab:AddLabel("games soon: AOT and lifting sim")
+SupportedGamesTab:AddLabel("games soon: lifting sim")
 
 ChangelogTab:AddParagraph("                                   Verison 0.0.3","+ more games in development, + new key change")
 OrionLib:Init()
