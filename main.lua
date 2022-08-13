@@ -9,7 +9,7 @@ OrionLib:MakeNotification({
     Time = 5,
 })
 
-_G.Key = "dr4bv3g"
+_G.Key = "rbt4gbm"
 _G.KeyInput = "string"
 
 function MakeScriptHub()
@@ -83,10 +83,10 @@ Tab:AddButton({
 })
 
 Tab:AddLabel("NOTICE: NOT ALL SCRIPTS ARE THE SAME GUI!!!")
-SupportedGamesTab:AddParagraph("Supported Games: ", "Tapping Legends, Prison Life")
-SupportedGamesTab:AddLabel("games soon: lifting sim")
+SupportedGamesTab:AddParagraph("Supported Games: ", "Tapping Legends, Prison Life, lifting sim")
+SupportedGamesTab:AddLabel("games soon: none for now")
 
-ChangelogTab:AddParagraph("                                   Verison 0.0.3","+ more games in development, + new key change")
+ChangelogTab:AddParagraph("                                   Verison 0.0.5"," + new key change")
 OrionLib:Init()
 
 -- Roblox LSP -> https://discord.com/channels/996611195199037570/997588188895924264/1005598829254541392
