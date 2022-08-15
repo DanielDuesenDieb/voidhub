@@ -83,10 +83,10 @@ Tab:AddButton({
 })
 
 Tab:AddLabel("NOTICE: NOT ALL SCRIPTS ARE THE SAME GUI!!!")
-SupportedGamesTab:AddParagraph("Supported Games: ", "Tapping Legends, Prison Life, lifting sim")
+SupportedGamesTab:AddParagraph("Supported Games: ", "Tapping Legends, Prison Life, Lifting Sim")
 SupportedGamesTab:AddLabel("games soon: none for now")
 
-ChangelogTab:AddParagraph("                                   Verison 0.0.5"," + new key change")
+ChangelogTab:AddParagraph("                                   Verison 0.0.5(beta)"," + new key change, + im back lol")
 OrionLib:Init()
 
 -- Roblox LSP -> https://discord.com/channels/996611195199037570/997588188895924264/1005598829254541392
