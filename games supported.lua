@@ -7,6 +7,7 @@ if game.PlaceId == 155615604 then --Prison Life
 end
 
 if game.PlaceId == 5490351219 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/offsetvoid/voidhub/main/ClickerMadness.lua",true))()
 end
 
 if game.PlaceId == 3652625463 then --Lifting Sim
