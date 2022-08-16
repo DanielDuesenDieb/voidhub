@@ -15,6 +15,7 @@ if game.PlaceId == 8750997647 then
     _G.autoHatch = true
     _G.selectEgg = "Basic Egg"
     _G.autoEquip = true
+    _G.selectRebirth = "1"
 
     -- Functions
     
@@ -27,7 +28,7 @@ if game.PlaceId == 8750997647 then
     
     function autoRebirth()
         while _G.autoRebirth == true do
-            game:GetService("ReplicatedStorage").Remotes.Rebirth:FireServer(1)
+            game:GetService("ReplicatedStorage").Remotes.Rebirth:FireServer(_G.selectRebirth)
             wait(.0001)
         end
        end
