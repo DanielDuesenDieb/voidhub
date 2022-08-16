@@ -1,6 +1,6 @@
 if game.PlaceId == 5490351219 then
-local mod = require(game:GetService("Players").VictoriaHarris27.PlayerScripts.Aero.Controllers.UI.Pets)
-setconstant(mod.CalculatePetCapacity, 7, 700)
+      local mod = require(game:GetService("Players").VictoriaHarris27.PlayerScripts.Aero.Controllers.UI.Pets)
+      setconstant(mod.CalculatePetCapacity, 7, 700)
 
 getgenv().autoTap = false;
 getgenv().autoRebirth = false;
@@ -125,7 +125,7 @@ c:Button("Teleport Selected",function()
         teleportWorld(selectedWorld)
     end
 end)
-
+end
 
 
 
