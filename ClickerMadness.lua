@@ -1,3 +1,4 @@
+if game.PlaceId == 5490351219 then
 local mod = require(game:GetService("Players").VictoriaHarris27.PlayerScripts.Aero.Controllers.UI.Pets)
 setconstant(mod.CalculatePetCapacity, 7, 700)
 
