@@ -8,7 +8,7 @@ getgenv().BuyEgg = false;
 
 local remotePath = game:GetService("ReplicatedStorage").Aero.AeroRemoteServices;
 
-local clickMod = require(game:GetService("Players")["VictoriaHarris27"].PlayerScripts.Aero.Controllers.UI.Click)
+local clickMod = require(game:GetService("Players").LocalPlayer.PlayerScripts.Aero.Controllers.UI.Click)
 
 function doTap()
     spawn(function() 
